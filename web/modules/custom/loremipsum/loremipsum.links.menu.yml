@@ -1,0 +1,6 @@
+loremipsum.form:
+  title: 'Configure Lorem ipsum'
+  description: 'Settings for filler text generation.'
+  route_name: loremipsum.form
+  parent: system.admin_config_development
+
