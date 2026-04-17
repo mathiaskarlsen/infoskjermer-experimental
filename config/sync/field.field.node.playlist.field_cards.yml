@@ -1,0 +1,29 @@
+uuid: 70e06db6-2b99-4ae5-b5de-0971730edb03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cards
+    - node.type.card
+    - node.type.playlist
+id: node.playlist.field_cards
+field_name: field_cards
+entity_type: node
+bundle: playlist
+label: Cards
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      card: card
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

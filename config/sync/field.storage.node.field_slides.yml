@@ -1,4 +1,4 @@
-uuid: 3726d85c-ecf7-43b8-9544-df496e364175
+uuid: 6c1b4ace-3e69-4454-86b1-1f1f2b7b050e
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-id: node.field_playlist_items
-field_name: field_playlist_items
+id: node.field_slides
+field_name: field_slides
 entity_type: node
 type: entity_reference_revisions
 settings:

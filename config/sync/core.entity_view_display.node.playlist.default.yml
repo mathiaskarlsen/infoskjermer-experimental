@@ -3,17 +3,24 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.playlist.field_cards
     - field.field.node.playlist.field_playlist_description
-    - field.field.node.playlist.field_playlist_items
     - node.type.playlist
   module:
-    - entity_reference_revisions
     - user
 id: node.playlist.default
 targetEntityType: node
 bundle: playlist
 mode: default
 content:
+  field_cards:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
   field_playlist_description:
     type: string
     label: above
@@ -21,15 +28,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 104
-    region: content
-  field_playlist_items:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 103
     region: content
   links:
     settings: {  }

@@ -1,0 +1,18 @@
+uuid: 7e419fb2-9fa8-4682-aa9e-034553c76cbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Card
+type: card
+description: 'A card can contain any number of slides (images, videos, etc.)'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

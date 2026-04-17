@@ -1,0 +1,10 @@
+uuid: 8ffcebd9-e68d-4733-a5fe-3ae5f5f73c58
+langcode: en
+status: true
+dependencies: {  }
+id: slide_video
+label: Video
+icon_uuid: null
+icon_default: null
+description: 'a video'
+behavior_plugins: {  }

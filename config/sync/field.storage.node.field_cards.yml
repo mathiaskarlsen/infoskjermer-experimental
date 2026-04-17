@@ -1,18 +1,18 @@
-uuid: 8f09ed0d-ba2b-4088-803a-0f3e1e130020
+uuid: 37f1c955-572e-47b1-84a0-c8d382588536
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
-id: node.field_slide_body
-field_name: field_slide_body
+id: node.field_cards
+field_name: field_cards
 entity_type: node
-type: text_long
-settings: {  }
-module: text
+type: entity_reference
+settings:
+  target_type: node
+module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

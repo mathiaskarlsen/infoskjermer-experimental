@@ -1,0 +1,10 @@
+uuid: 64d7af42-64c6-49ae-93fd-f5348ef60291
+langcode: en
+status: true
+dependencies: {  }
+id: slide_image
+label: Image
+icon_uuid: null
+icon_default: null
+description: 'An image'
+behavior_plugins: {  }

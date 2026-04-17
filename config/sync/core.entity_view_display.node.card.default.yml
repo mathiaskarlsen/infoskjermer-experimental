@@ -1,16 +1,16 @@
-uuid: 29eeb553-dc5c-468c-8389-27e83f2161ad
+uuid: f761e989-3f60-43ee-8f44-c41cd3bd3a50
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.slide.field_slides
-    - node.type.slide
+    - field.field.node.card.field_slides
+    - node.type.card
   module:
     - entity_reference_revisions
     - user
-id: node.slide.default
+id: node.card.default
 targetEntityType: node
-bundle: slide
+bundle: card
 mode: default
 content:
   field_slides:
