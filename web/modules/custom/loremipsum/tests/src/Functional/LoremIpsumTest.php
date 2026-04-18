@@ -8,7 +8,7 @@ use Drupal\Tests\BrowserTestBase;
  * Tests for the Lorem Ipsum module
  * @group loremipsum
  */
-class LoremIpsumTests extends BrowserTestBase {
+class LoremIpsumTest extends BrowserTestBase {
 
   /**
    * Modules to install
@@ -85,7 +85,7 @@ class LoremIpsumTests extends BrowserTestBase {
       'page_title',
       'Test lorem ipsum'
     );
-    $this->assertSession->()fieldValueEquals(
+    $this->assertSession()->fieldValueEquals(
       'source_text',
       'Test phrase 1 \nTest phrase 2 \nTest phrase 3 \n'
     );
