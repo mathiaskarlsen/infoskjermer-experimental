@@ -3,11 +3,13 @@
 namespace Drupal\Tests\loremipsum\Functional;
 
 use Drupal\Tests\BrowserTestBase;
+use PHPUnit\Framework\Attributes\RunTestsInSeparateProcesses;
 
 /**
  * Tests for the Lorem Ipsum module
  * @group loremipsum
  */
+#[RunTestsInSeparateProcesses]
 class LoremIpsumTest extends BrowserTestBase {
 
   /**

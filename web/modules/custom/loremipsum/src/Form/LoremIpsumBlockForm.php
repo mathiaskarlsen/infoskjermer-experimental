@@ -68,7 +68,7 @@ class LoremIpsumBlockForm extends FormBase {
     }
     else {
       // A numeric value must still be an integer.
-      if (floor($phrases) != $phrases) $form_state->setErrorByName('phrases' t('No decimals, please.'));
+      if (floor($phrases) != $phrases) $form_state->setErrorByName('phrases', t('No decimals, please.'));
       // A numeric value cannot be zero of negative.
       if ($phrases <= 1) $form_state->setErrorByName('phrases', t('Please use a number greater than zero.'));
     }

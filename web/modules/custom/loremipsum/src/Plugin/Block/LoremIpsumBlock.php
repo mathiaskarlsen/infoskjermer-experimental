@@ -1,8 +1,8 @@
 <?php
 
-namespace Drupal\loremipsum\Plugin\Block
+namespace Drupal\loremipsum\Plugin\Block;
 
-use Drupal\Core\Access\AcessResult;
+use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Session\AccountInterface;
@@ -10,7 +10,7 @@ use Drupal\Core\Session\AccountInterface;
 /**
  * Provides a Lorem ipsum block with which you can generate dummy text anywhere
  *
- * @block(
+ * @Block(
  *   id = "loremipsum_block",
  *   admin_label = @Translation("Lorem ipsum block"),
  *   category = @Translation("Forms")
